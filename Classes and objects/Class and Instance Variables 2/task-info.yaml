@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 16
-        length: 84
+        length: 15
         placeholder_text: "# TODO: add a mutable class variable (all_cities list) to store\
       \ all added city names"
         initial_state:
@@ -12,10 +12,10 @@ files:
           offset: 16
         initialized_from_dependency: false
         encrypted_possible_answer: ua/M2+iWZm7WCvwVYQp1VQ==
-        selected: false
-        status: Unchecked
-      - offset: 254
-        length: 88
+        selected: true
+        status: Solved
+      - offset: 185
+        length: 19
         placeholder_text: "# TODO: call add_city method to add the city name to the list\
       \ upon object initialization"
         initial_state:
@@ -23,10 +23,10 @@ files:
           offset: 254
         initialized_from_dependency: false
         encrypted_possible_answer: lKQycAlH5Ryo8+FH/IOIxw==
-        selected: false
-        status: Unchecked
-      - offset: 376
-        length: 119
+        selected: true
+        status: Solved
+      - offset: 249
+        length: 33
         placeholder_text: |-
           pass
                   # TODO: implement a method that will append a city name to the all_cities list. Delete the pass statement!
@@ -36,7 +36,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: nukI0rEjTOPML4K9e+6aReZVWZTIrsYu6gdN3UOx0i1CqFy4iAglx4wtXftfknuW
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -47,5 +47,8 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 05 Aug 2025 11:44:16 UTC"
 record: -1

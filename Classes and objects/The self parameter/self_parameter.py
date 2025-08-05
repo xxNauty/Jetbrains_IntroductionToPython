@@ -17,11 +17,10 @@ class Calculator:
     current = 0
 
     def add(self, amount):
-        # Update the current attribute by adding the amount to it.
+       self.current += amount
 
     def get_current(self):
-        return ???
-
+        return self.current
 
 my_value = Calculator()
 my_value.add(100500)

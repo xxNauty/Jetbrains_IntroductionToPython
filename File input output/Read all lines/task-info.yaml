@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 43
-        length: 69
+        length: 83
         placeholder_text: "# TODO: read all lines from input.txt into the list called\
       \ lines_list"
         initial_state:
@@ -13,7 +13,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: wbhX2Ha7O1/X0iVchBHKRjyA4hAX7qv4ZQvwfTB45qM=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -27,5 +27,8 @@ files:
   - name: input.txt
     visible: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 05 Aug 2025 12:04:57 UTC"
 record: -1
