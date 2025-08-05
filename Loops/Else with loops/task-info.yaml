@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 182
-        length: 35
+        length: 9
         placeholder_text: "# Add a condition for interruption."
         initial_state:
           length: 35
@@ -12,17 +12,17 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: MfLcSJ5EIrHdMFsleH+Oqg==
         selected: false
-        status: Unchecked
-      - offset: 226
-        length: 47
+        status: Solved
+      - offset: 192
+        length: 13
         placeholder_text: "# Add a statement that will terminate the loop."
         initial_state:
           length: 47
           offset: 226
         initialized_from_dependency: false
         encrypted_possible_answer: +rreWeLZ2/PtWdFPxkaAAA==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: tests/__init__.py
     visible: false
@@ -31,5 +31,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Loops+/+Else+with+loops
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 05 Aug 2025 07:11:48 UTC"
 record: -1
